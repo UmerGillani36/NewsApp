@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'Bebas Neue';
+
+}
+
+.App{
+  background-color: rgb(255, 255, 255);
+
+}
+.Container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:20px;
+}
+
